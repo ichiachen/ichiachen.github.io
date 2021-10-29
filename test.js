@@ -38,6 +38,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
 
+console.log("HI");
 
 signInWithEmailAndPassword(auth, "ichia@berkeley.edu", "Megusta1!")
 .then((userCredential) => {
